@@ -14,7 +14,7 @@
 
             pkg: grunt.file.readJSON("package.json"),
             ARTIFACT_ZIP : "dist.zip",
-            srcFiles: ["js/*.js", "js/**/*.js", "templates/**/*.js"],
+            srcFiles: ["js/*.js", "js/**/*.js", "templates/**/*.js", "config/*.js"],
             
             clean: ["<%=PATHS.BUILD%>"],
 
